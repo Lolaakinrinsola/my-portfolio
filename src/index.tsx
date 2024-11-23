@@ -1,15 +1,27 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import useStore from './store/useStore';
 
+
+const ThemeProvider = () => {
+  const {isDarkMode} = useStore();
+
+  useEffect(() => {
+    const root = document.documentElement; // Access the <html> element
+    root.classList.toggle('dark', isDarkMode); // Apply/remove the 'dark' class
+  }, [isDarkMode]);
+
+  return <App />;
+};
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
 root.render(
   <React.StrictMode>
-    <App />
+    <ThemeProvider />
   </React.StrictMode>
 );
 
