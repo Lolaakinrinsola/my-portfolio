@@ -178,8 +178,8 @@ const Home = () => {
         <div className="m-auto md:m-0">
           <Title title="My Porfolio" />
         </div>
-        <div className="flex justify-between text-dark dark:text-light  ">
-          <p className="w-[80%] md:w-[40%] text-[30px] md:text-[40px] font-bold">
+        <div className=" text-center md:text-left gap-2 md:flex justify-between text-dark dark:text-light  ">
+          <p className=" md:w-[40%] text-[25px] md:text-[40px] font-bold">
             Let's Have a Look at{" "}
             <span className="text-green ">My Portfolio</span>
           </p>
