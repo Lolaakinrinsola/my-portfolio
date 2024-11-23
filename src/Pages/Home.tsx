@@ -98,7 +98,7 @@ const Home = () => {
       </div>
 
       {/* About Me */}
-      <div className={`${space} py-[70px] flex flex-wrap gap-[30px]`} data-aos="slide-left">
+      <div className={`${space} py-[70px] flex flex-wrap gap-[30px]`} data-aos="fade-in">
         <div className="w-[40%] m-auto">
           <div className="relative  flex w-fit">
             <div className="absolute bg-green w-[270px] h-[270px] left-[-18%] z-10 rounded-full bottom-0 lg:w-[500px] lg:h-[500px] md:right-[-50%] md:hidden lg:block"></div>
@@ -144,7 +144,7 @@ const Home = () => {
       </div>
 
       {/* Favorite tools */}
-      <div className={`${space} py-[70px] gap-[30px] text-center m-auto grid`} data-aos="slide-right">
+      <div className={`${space} py-[70px] gap-[30px] text-center m-auto grid`} data-aos="fade-in">
         <div className="m-auto ">
           <Title title="My Favorite Tools" />
         </div>
@@ -174,7 +174,7 @@ const Home = () => {
 
       {/* Porfolio */}
       
-      <div className={`${space} py-[70px] gap-[30px]  m-auto grid`} data-aos="slide-right">
+      <div className={`${space} py-[70px] gap-[30px]  m-auto grid`} data-aos="fade-in">
         <div className="m-auto md:m-0">
           <Title title="My Porfolio" />
         </div>

@@ -77,7 +77,7 @@ const [errors, setErrors] = useState({
     const emailBody = `
       Hi Ololade,%0D%0A
       %0D%0A
-      The budget for this is ${budget}. %0D%0A
+      The budget for this is $${budget}CAD. %0D%0A
       ${message} %0D%0A
       You can also reach me at ${phone} and ${email}.%0D%0A
       %0D%0A

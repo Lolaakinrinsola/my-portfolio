@@ -24,7 +24,7 @@ module.exports = {
         merriweather: ['Merriweather', 'sans-serif'], // Add your custom font here
       },
       animation: {
-        marquee: "marquee 20s linear infinite", // Custom animation added
+        marquee: "marquee 35s linear infinite", // Custom animation added
       },
       keyframes: {
         marquee: {

@@ -12,7 +12,7 @@
 }
 
 .animate-marquee {
-  display: inline-flex;
+  display: flex;
   animation: marquee 10s linear infinite linear;
 }
 
