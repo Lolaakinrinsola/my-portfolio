@@ -11,7 +11,7 @@ const Services = ({service}:any) => {
                     </div>
                     <div className="px-[15px]">
 
-                    <p className="text-dark dark:text-light text-[20px] font-bold">{val.name}</p>
+                    <p className="text-dark dark:text-white text-[20px] font-bold">{val.name}</p>
                     <p className="text-lightDark dark:text-darkwhite text-[15px]">{val.descrp}</p>
                     </div>
 

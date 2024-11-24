@@ -13,7 +13,7 @@ const services = [
   ];
 const useStore = create((set,get) => ({
   isDarkMode: true, // Default is light mode
-  space:'px-[15px] md:px-[5%] lg:px-[10%] dark:bg-dark bg-[#FAEBD7]',
+  space:'px-[15px] md:px-[5%] lg:px-[10%] dark:bg-dark bg-light',
   services:services,
   toggleTheme: () =>{ 
     const isDarkMode=get().isDarkMode
