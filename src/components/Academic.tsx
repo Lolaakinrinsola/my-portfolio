@@ -19,7 +19,7 @@ const Academic = () => {
             <div className="pt-3 grid gap-[20px] h-fit" key={ind}>
               <div className="flex items-center justify-between gap-[30px] ">
                 <div className="grid">
-                  <p className="text-lightText text-[20px] dark:text-light">
+                  <p className="text-lightText text-[20px] dark:text-white">
                     {item.name}
                   </p>
                   <p className="text-lightMuted dark:text-lightdarkwhite text-[15px]">
