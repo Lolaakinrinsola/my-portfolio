@@ -122,12 +122,12 @@ const AboutMe = () => {
       </div>
       <FlowingServices/>
             {/* Skills Section */}
-            <div className="py-[50px] bg-lightBackground dark:bg-lightDark">
+            <div className="py-[50px] bg-light dark:bg-lightDark">
             <div className="m-auto w-fit">
 
         <Title title="Skills" />
             </div>
-        <div className="grid md:grid-cols-5 gap-[20px] justify-center mt-[30px] ">
+        <div className="grid grid-cols-3 gap-y-[60px] justify-center mt-[30px] lg:grid-cols-5">
           {skills.map((skill, index) => (
             <div
               key={index}

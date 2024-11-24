@@ -10,8 +10,8 @@ module.exports = {
         borderDark: '#333333', // Slightly lighter for contrast in borders
         darkwhite: '#D6D6D6', // Softer white for text in dark mode
         lightdarkwhite: '#A3A3A3', 
-        light: '#FDF9F4',
-        // #60A561 27AE60 #1C8E3F
+        light: '#FAEBD7',
+        // #60A561 27AE60 #1C8E3F #FAEBD7 #FDF9F4
         green: '#1C8E3F',
     
         lightBackground: '#FAF4ED', // Secondary light background

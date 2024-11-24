@@ -35,7 +35,7 @@ const ProjectPage = () => {
 
     
   if (!project) {
-    return <div className="bg-light dark:bg-dark py-[100px] pt-[200px] text-white font-bold text-center uppercase text-[40px] w-full">Project Not Found</div>;  // Show a fallback message if category is not found
+    return <div className="bg-light dark:bg-dark py-[100px] pt-[200px] dark:text-white text-dark font-bold text-center uppercase text-[40px] w-full">Project Not Found</div>;  // Show a fallback message if category is not found
   }
   return (
     <>
