@@ -12,7 +12,7 @@ const FlowingServices = () => {
       const width = marqueeElement.scrollWidth;
 
       gsap.to(marqueeElement, {
-        x: -width / 2, // Moves half the width of the content
+        x: -width / 2, 
         duration: 30, // Adjust speed of marquee
         repeat: -1,
         ease: "linear",
