@@ -32,13 +32,13 @@ const offerings = [
 
   return (
     <div className={`${space} grid gap-[30px]`}>
-        <div className="m-auto md:m-0">
+        <div className="m-auto md:m-0 pt-[40px]">
         <Title title='Pricing Table'/>
 
         </div>
 
         <div className="flex justify-between items-center">
-            <p className="text-[20px] md:text-[30px] text-dark dark:text-light">My <span className="text-green"> Pricing Model</span></p>
+            <p className="text-[20px] font-bold md:text-[30px] text-dark dark:text-light">My <span className="text-green"> Pricing Model</span></p>
             <Button title='Get Started' onClick={()=>navigate('/contact')}/>
         </div>
 
