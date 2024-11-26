@@ -7,7 +7,7 @@ const DefaultInput = ({name,type,value,onChange,error,placeHolder,label,rows,max
         </label>
         {isTextArea?(
             <textarea id={name}
-            className={`peer border-[1px] rounded-[8px] dark:bg-lightDark py-[18px] px-[24px] focus:border-primary focus:outline-none invalid:border-[#CD2C2C] dark:border-borderDark  invalid:border-[2px] ${error&&'border-[#CD2C2C] border-[2px] dark:text-darkwhite text-dark'} border-borderLight bg-lightBackground`}
+            className={`peer border-[1px] rounded-[8px] dark:bg-lightDark py-[18px] px-[24px] focus:border-primary focus:outline-none invalid:border-[#CD2C2C] dark:border-borderDark  invalid:border-[2px] ${error&&'border-[#CD2C2C] border-[2px] '} border-borderLight bg-lightBackground dark:text-darkwhite text-dark`}
             value={value}
             onChange={onChange}
             placeholder={placeHolder}
@@ -19,7 +19,7 @@ const DefaultInput = ({name,type,value,onChange,error,placeHolder,label,rows,max
         <input
           type={type}
           id={name}
-          className={`peer border-[1px] rounded-[8px] dark:bg-lightDark py-[18px] px-[24px] focus:border-primary focus:outline-none invalid:border-[#CD2C2C] dark:border-borderDark  invalid:border-[2px] ${error&&'border-[#CD2C2C] border-[2px] dark:text-darkwhite text-dark'} border-borderLight bg-lightBackground`}
+          className={`peer border-[1px] rounded-[8px] dark:bg-lightDark py-[18px] px-[24px] focus:border-primary focus:outline-none invalid:border-[#CD2C2C] dark:border-borderDark  invalid:border-[2px] ${error&&'border-[#CD2C2C] border-[2px]'} border-borderLight bg-lightBackground dark:text-darkwhite text-dark`}
           value={value}
           onChange={onChange}
           placeholder={placeHolder}
