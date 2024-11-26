@@ -1,4 +1,4 @@
-import { useParams } from 'react-router-dom';
+import { useNavigate, useParams } from 'react-router-dom';
 import Button from '../components/Button';
 import FlowingServices from '../components/FlowingServices';
 import { mockProjects } from '../components/ProjectMock';
@@ -9,6 +9,7 @@ import { FiGithub, FiExternalLink } from 'react-icons/fi';
 const ProjectPage = () => {
     const { space } = useStore();
     const {id}=useParams()
+    const navigate=useNavigate()
 
   // Find the project based on the ID
   const project = mockProjects.find((item: any) => item.id == id);
@@ -116,7 +117,7 @@ const ProjectPage = () => {
             View
             <span className="text-green "> Other Projects</span>
           </p>
-          <Button title="View All Projects" className="h-fit whitespace-nowrap" />
+          <Button title="View All Projects" className="h-fit whitespace-nowrap" onClick={()=>navigate("/project")}/>
         </div>
 
         

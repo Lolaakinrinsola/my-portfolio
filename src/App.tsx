@@ -8,16 +8,16 @@ import Service from './Pages/Services';
 import ProjectPage from './Pages/ProjectPage';
 import Contact from './Pages/Contact';
 import NotFound from './Pages/NotFound';
+import Rate from './Pages/Rate';
 
 function App() {
   return (
     <BrowserRouter>
     <Layout>
-
-    
       <Routes>
-        <Route path="/" element={<Home />} />
         <Route path="*" element={<NotFound />} />
+        <Route path="/" element={<Home />} />
+        <Route path="/rate" element={<Rate />} />
         <Route path="/about" element={<AboutMe />} />
         <Route path="/service" element={<Service />} />
         <Route path="/contact" element={<Contact />} />
